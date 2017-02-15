@@ -1,1 +1,1 @@
-[<img src="https://david-dm.org/asotog/squeezebox.svg">](https://david-dm.org/asotog/react-boilerplate-web)
+[<img src="https://david-dm.org/asotog/react-boilerplate-web.svg">](https://david-dm.org/asotog/react-boilerplate-web)
