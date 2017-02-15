@@ -30,7 +30,16 @@ module.exports = {
             exclude: EXCLUDES,
             loader: mainStylesExtract.extract({
                 fallback: 'style-loader',
-                use: 'css-loader!autoprefixer-loader!sass-loader'
+                use: [{
+                    loader: 'css-loader'
+                }, {
+                    loader: 'autoprefixer-loader'
+                }, {
+                    loader: 'sass-loader',
+                    options: {
+                        includePaths: ['./node_modules']
+                    }
+                }]
             })
         }]
     }

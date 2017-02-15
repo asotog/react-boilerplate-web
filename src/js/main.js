@@ -1,8 +1,12 @@
+// Vendors
 import React from 'react';
 import {render} from 'react-dom';
+// Own JS
+import ContactComponent from './components/contact-component';
+// Own CSS
 import mainCss from '../css/main.scss';
 
-render(<h1>Hello, world!</h1>, document.querySelector('contact-component'));
+render(<ContactComponent/>, document.querySelector('contact-component'));
 
 console.log('main.js working...');
 
